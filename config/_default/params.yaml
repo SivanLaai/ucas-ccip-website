@@ -18,7 +18,7 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
+    description: '**云计算与智能信息处理实验室**（CCIP Lab，成立于2010年1月，隶属于中国科学院大学计算机科学与技术学院，拥有自由开放的学术氛围和国际前沿的研究方向。实验室主任为徐俊刚教授'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -39,13 +39,14 @@ header:
     show_language: false
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    #notice: '© {year} CCIP. This work is licensed under {license}'
+    notice: '© {year} Cloud Computing & Intelligent Information Processing Laboratory'
     license:
       enable: true
       allow_derivatives: false
@@ -57,7 +58,7 @@ footer:
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
-  address_format: en-us
+  address_format: zh
 
 # Site features
 
