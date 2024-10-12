@@ -1,0 +1,63 @@
+{{/* Hugo Blox: Markdown */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $columns := $block.design.columns | default "1" }}
+{{ $tag := $block.design.tag | default "" }}
+{{ $text := $block.content.text | emojify | $page.RenderString }}
+{{ $url := $block.content.url | default ""  }}
+{{ $font_size := $block.content.fontsize | default ""  }}
+
+
+{{- if eq $tag "intro" -}}
+<div style="display:flex;justify-content:center;align-items:center;column-gap:30px"><a href={{ $url }}>
+    <figure>
+      <div class="d-flex justify-content-center">
+        <div class="w-100">
+          {{- $image := resources.Get (path.Join "media" $block.content.image.filename) -}}
+          {{ $imageWidth := $block.content.image.width | default $image.Width }}
+          {{ $imageHeight := $block.content.image.height | default $image.Height }}
+          {{ if $image }}
+            {{ $isSVG := eq $image.MediaType.SubType "svg" }}
+            {{ if $isSVG -}}
+              <img src="{{ $image.RelPermalink }}" alt="{{ $block.Title }}">
+            {{- else }}
+              {{ $legacy_img := $image.Resize "400x" }}
+              {{ $img_src := "" }}
+              {{ $img_src_set := slice }}
+              {{ $widths := slice 1200 800 400 }}
+              {{ range $widths }}
+                {{ $src_link := ($image.Resize (printf "%dx" .)).RelPermalink }}
+                {{ if eq $img_src "" }}
+                  {{ $img_src = $src_link }}
+                {{ end }}
+                {{ $img_src_set = $img_src_set | append (printf "%s %dw" $src_link .) }}
+              {{ end }}
+              {{ $img_src_set = delimit $img_src_set "," }}
+
+              <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" width="{{ $imageWidth }}" height="{{ $imageHeight }}" alt="{{ $block.Title }}" class="medium-zoom-image">
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </figure>
+  </a>
+  <font size={{ $font_size }}>
+    {{ $text }}
+    {{ $i18n := "read_more" }}
+    {{ $archive_text := $block.content.archive.text | default (i18n $i18n) | default "read more" }}
+    <a href={{ $url }}> {{$archive_text}}...</a>
+  </font>
+</div>
+{{ else if ne $columns "1" }}
+<div class="col-12 col-lg-8">
+  {{ $text }}
+</div>
+{{ else }}
+<div class="col-12">
+  {{ $text }}
+</div>
+{{ end }}
