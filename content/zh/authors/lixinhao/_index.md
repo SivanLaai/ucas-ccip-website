@@ -28,8 +28,8 @@ education:
     - course: 硕士/计算计应用技术
       institution: 中国科学院大学
       year: 2021
-    - course: 本科/电子信息
-      institution: 上海交通大学
+    - course: 本科/计算计科学与技术
+      institution: 浙江大学
       year: 2017
 
 # Social/Academic Networking
@@ -39,7 +39,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:xiangxunzhi21@mails.ucas.ac.cn'
+    link: 'mailto:lixinhao22@mails.ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -56,7 +56,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'xiangxunzhi21@mails.ucas.ac.cn'
+email: 'lixinhao22@mails.ucas.ac.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

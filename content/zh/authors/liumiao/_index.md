@@ -28,7 +28,7 @@ education:
     - course: 博士/计算计应用技术
       institution: 中国科学院大学
       year: 2020
-    - course: 本科/电子信息
+    - course: 本科/数据科学
       institution: 北京大学
       year: 2016
 
@@ -39,7 +39,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:xiangxunzhi21@mails.ucas.ac.cn'
+    link: 'mailto:liumiao20@mails.ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -56,7 +56,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'xiangxunzhi21@mails.ucas.ac.cn'
+email: 'liumiao20@mails.ucas.ac.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
