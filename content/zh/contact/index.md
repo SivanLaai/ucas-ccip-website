@@ -7,10 +7,9 @@ type: landing
 sections:
   - block: contact
     content:
-      title: 关于我们
-      text: |-
-        **云计算与智能信息处理实验室**（CCIP Lab）
-
+      title: 联系我们
+      # text: |-
+      
       email: xujg@ucas.ac.cn
       phone: 010-69671828
       address:
@@ -47,23 +46,23 @@ sections:
     design:
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: contact.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle: ''
+  #     text:
+  #   design:
+  #     columns: '1'
+  #     background:
+  #       image: 
+  #         filename: contact.jpg
+  #         filters:
+  #           brightness: 1
+  #         parallax: false
+  #         position: center
+  #         size: cover
+  #         text_color_light: true
+  #     spacing:
+  #       padding: ['20px', '0', '20px', '0']
+  #     css_class: fullscreen
 ---

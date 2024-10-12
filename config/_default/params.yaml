@@ -46,12 +46,12 @@ header:
 footer:
   copyright:
     #notice: '© {year} CCIP. This work is licensed under {license}'
-    notice: '© {year} Cloud Computing & Intelligent Information Processing Laboratory'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+    notice: '版权所有 © {year} 云计算与智能信息处理实验室（CCIP Lab）'
+    # license:
+    #   enable: true
+    #   allow_derivatives: true
+    #   share_alike: true
+    #   allow_commercial: true
 
 # Localization
 
