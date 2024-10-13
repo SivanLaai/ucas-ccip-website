@@ -10,12 +10,14 @@ last_name: 赖
 superuser: false
 
 # Role/position
-role: 博士
+role: 博士研究生
 
 # Organizations/Affiliations
 organizations:
-  - name: 中国科学院大学/计算机学院
-    url: ''
+  - name: 中国科学院大学
+    url: 'https://www.ucas.ac.cn'
+  - name: 计算机科学与技术学院
+    url: 'https://scce.ucas.ac.cn'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 个人研究方向目前主要在电子设计自动化（EDA）与人工智能的结合.
@@ -26,10 +28,11 @@ interests:
   - 深度学习
 
 education:
+  start_year: 2021
   courses:
     - course: 博士/计算计应用技术
       institution: 中国科学院大学
-      year:
+      year: 
     - course: 硕士/软件工程
       institution: 中南大学
       year: 
@@ -44,7 +47,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:laixinhua21@mails.ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -78,6 +81,9 @@ user_groups:
 
 ### **获奖情况**
 
-1.2019年上海交通大学励志奖学金
-
-2.CCF BDCI算法比赛三等奖
+- 2019-12 华为部门优秀新员工
+- 2019-11 华为部门 Top10“新人极客”称号
+- 2019-03-20 《一种基于机器学习的股票涨跌预测系统》专利申请
+- 2019-03-20 《一种基于 OpenGL 的三维矿山分析系统》专利申请
+- 2018-09-15 《企业考勤管理系统》软件著作权申请
+- 2017-10-05 《大学股票显示系统》软件著作权申请

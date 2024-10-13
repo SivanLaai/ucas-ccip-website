@@ -10,7 +10,7 @@ last_name: 李
 superuser: false
 
 # Role/position
-role: 硕士
+role: 硕士研究生
 
 # Organizations/Affiliations
 organizations:
@@ -24,13 +24,14 @@ interests:
   - 自动机器学习
 
 education:
+  start_year: 2022
   courses:
     - course: 硕士/计算计应用技术
       institution: 中国科学院大学
-      year: 2021
+      year: 2022
     - course: 本科/计算计科学与技术
       institution: 浙江大学
-      year: 2017
+      year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

@@ -10,7 +10,7 @@
 {{ if .author }}
   {{ $author = .author }}
 {{ else }}
-  {{ $author = $block.content.username }}
+  {{ $author = $block.Params.author }}
 {{end}}
 
 {{ $person_page_path := (printf "/authors/%s" $author) }}
@@ -20,7 +20,7 @@
 {{end}}
 {{ $person := $person_page.Params }}
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
-{{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
+{{ $avatar_shape := site.Params.features.avatar.about_shape | default "circle" }}
 
 <!-- About widget -->
 <div class="row">
@@ -30,7 +30,7 @@
       {{ if site.Params.features.avatar.gravatar }}
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person_page.Title}}">
       {{ else if $avatar }}
-      {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+      {{ $avatar_image := $avatar.Fill "380x400 Top" }}
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}"
            width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}"
            src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
@@ -49,7 +49,16 @@
           {{- end -}}
         </h2>
 
-        {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+        {{ $i18n_join := "join" }}
+        {{ $i18n_graduated := "graduated" }}
+        {{ $graduate_state := default (i18n $i18n_graduated) | default "graduated" }}
+        {{ $join := default (i18n $i18n_join) | default "join" }}
+        {{ with $person.role }}<h3>{{ . | markdownify | emojify }} 
+        {{ with $person.destination }}({{ $graduate_state | markdownify | emojify }})</h3>{{ end }}
+        </h3>{{ end }}
+        {{ with $person.destination }}<h3 class="font-weight-bold">
+          {{ $join }}{{ . | markdownify | emojify }}
+        </h3>{{ end }}
 
         {{ range $person.organizations }}
         <h3>
@@ -88,25 +97,20 @@
   <div class="col-12 col-lg-8">
 
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
-    {{ with $block.content.title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+    {{ if and $block.Params.widget $block.Title }}<h1>{{ $block.Title | markdownify | emojify }}</h1>{{ end }}
 
-    {{ with $person_page.Content }}
     <div class="article-style">
-      {{ . }}
+      {{ $person_page.Content }}
     </div>
-    {{ end }}
 
     <div class="row">
 
       {{ with $person.interests }}
       <div class="col-md-5">
         <div class="section-subheading">{{ i18n "interests" | markdownify }}</div>
-        <ul class="ul-interests fa-ul mb-0">
+        <ul class="ul-interests mb-0">
           {{ range . }}
-          <li>
-            <i class="fa-li fa-solid fa-book-open"></i>
-            {{ . | markdownify | emojify }}
-          </li>
+          <li>{{ . | markdownify | emojify }}</li>
           {{ end }}
         </ul>
       </div>
@@ -118,7 +122,7 @@
         <ul class="ul-edu fa-ul mb-0">
           {{ range .courses }}
           <li>
-            <i class="fa-li fa-solid fa-graduation-cap"></i>
+            <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
               <p class="institution">{{ .institution }}</p>

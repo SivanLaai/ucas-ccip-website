@@ -79,6 +79,7 @@ features:
   avatar:
     gravatar: false
     shape: circle
+    about_shape: circle
   comment:
     provider: ''
     disqus:

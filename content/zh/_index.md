@@ -77,26 +77,6 @@ sections:
         （3）量化投资；
         （4）云计算。
         实验室本着“博学笃志，格物明德”的国科大精神，坚持“创新、求实、开放、合作”的理念，不断开拓进取，致力成为国内一流的科研和人才培养基地。
-      # text: |
-      #   <div style="display:flex;justify-content:center;align-items:center;column-gap:30px">
-
-      #   <a href="/research">
-      #   <figure><div class="d-flex justify-content-center"><div class="w-100">
-      #   <img alt="" src="/media/team2-16-9.jpg"  height="500" loading="lazy" data-zoomable="" class="medium-zoom-image">
-      #   </div></div></figure>
-      #   </a>
-
-      #   <font>
-      #   <strong>云计算与智能信息处理实验室</strong>成立于2010年1月，隶属于中国科学院大学计算机科学与技术学院，拥有自由开放的学术氛围和国际前沿的研究方向。实验室主任为徐俊刚教授。
-      #   实验室主要的研究方向：
-      #   （1）机器学习与深度学习；
-      #   （2）大数据管理；
-      #   （3）量化投资；
-      #   （4）云计算。
-      #   实验室本着“博学笃志，格物明德”的国科大精神，坚持“创新、求实、开放、合作”的理念，不断开拓进取，致力成为国内一流的科研和人才培养基地。
-      #   <a href="/research">阅读更多...</a>
-      #   </font>
-      #   </div>
     design:
       columns: '1'
       tag: intro

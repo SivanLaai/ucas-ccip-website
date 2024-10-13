@@ -104,6 +104,12 @@
 - id: education
   translation: 教育经历
 
+- id: graduated
+  translation: 已毕业
+
+- id: join
+  translation: 加入
+
 - id: user_profile_latest
   translation: 最新
 

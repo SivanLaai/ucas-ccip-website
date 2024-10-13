@@ -10,20 +10,24 @@ last_name: 刘
 superuser: false
 
 # Role/position
-role: 博士
+role: 博士研究生
 
 # Organizations/Affiliations
 organizations:
-  - name: 中国科学院大学/计算机学院
+  - name: 中国科学院大学/计算机科学与技术学院
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 研究方向为自动机器学习.
+bio: .
 
 interests:
-  - 自动机器学习
+  - EDA
+  - 逻辑综合
+  - 强化学习
+  - 深度学习
 
 education:
+  start_year: 2020 #国科大入学年份，必填
   courses:
     - course: 博士/计算计应用技术
       institution: 中国科学院大学
@@ -67,12 +71,13 @@ user_groups:
   - 博士研究生
 ---
 ### **导师** 
-徐俊刚
-
+- 徐俊刚
 
 
 ### **获奖情况**
 
-1.2019年上海交通大学励志奖学金
+- 2016 年北京大学新生奖学金三等奖
 
-2.CCF BDCI算法比赛三等奖
+<!-- ### **工作经历**
+
+- 2016 年北京大学新生奖学金三等奖 -->

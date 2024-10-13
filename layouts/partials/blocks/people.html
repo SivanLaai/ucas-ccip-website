@@ -9,6 +9,7 @@
 {{ $show_interests := $block.design.show_interests | default true }}
 {{ $show_organizations := $block.design.show_organizations | default false }}
 {{ $show_role := $block.design.show_role | default true }}
+{{ $show_destination := $block.design.show_destination | default true }}
 
 <div class="row justify-content-center people-widget">
   {{ with $block.content.title }}
@@ -28,7 +29,7 @@
     {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
 
     {{/* Sort */}}
-    {{ $sort_by := $block.content.sort_by | default "Params.last_name" }}
+    {{ $sort_by := $block.content.sort_by | default "Params.education.start_year" }}
     {{ $sort_by = partial "blox-core/functions/get_sort_by_parameter" $sort_by }}
     {{ $sort_ascending := $block.content.sort_ascending | default true }}
     {{ $sort_order := cond $sort_ascending "asc" "desc" }}
@@ -63,7 +64,14 @@
         <div class="portrait-title">
           <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
           {{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
-          {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
+          {{ if and $show_role .Params.role }}
+            <h3>{{ .Params.role | markdownify | emojify }}
+              {{ if and .Params.education.start_year .Params.destination }}
+                  ({{ .Params.education.start_year | markdownify | emojify }})
+              {{ end }}
+            </h3>
+          {{ end }}
+          {{ if and $show_destination .Params.destination }}<h3 class="font-weight-bold">{{ .Params.destination | markdownify | emojify }}</h3>{{ end }}
           {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
           {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
         </div>

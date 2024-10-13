@@ -1,5 +1,8 @@
-<footer class="site-footer">
+<footer class="site-footer" style=" margin-top: auto; margin-bottom: 10px; border-top: 1.5px solid #e5e5e5;">
+<!-- <footer class="site-footer content-widget-hr" style=" margin-top: auto; margin-bottom: 10px;"> -->
 
+
+  <p style="margin-top: 20px;">
   {{ partial "blox-core/functions/get_hook" (dict "hook" "footer-start" "context" .) }}
 
   {{/* Load footer block */}}
@@ -9,6 +12,7 @@
     {{ errorf "Check your `params.yaml`. Cannot find footer block at `layouts/partials/%s`" $footer_section_path }}
   {{ end }}
   {{ partial $footer_section_path . }}
+  </p>
 
   <p class="powered-by">
     {{ $is_sponsor := site.Params.i_am_a_sponsor | default false }}
