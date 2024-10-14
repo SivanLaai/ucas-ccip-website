@@ -113,6 +113,19 @@
 - id: user_profile_latest
   translation: 最新
 
+# People groups
+#- Principal Investigator  # 实验主任
+#- Professor  # 教授
+#- Associate Professor #副教授
+#- Postdocs  # 博士后
+#- PhD Students # 博士生
+#- Masters Students
+#- Undergraduate Students
+#- Engineering
+#- Vistors
+#- Intern
+#- Alumni
+
 # Accomplishments widget
 
 - id: see_certificate

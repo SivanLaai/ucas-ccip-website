@@ -54,8 +54,9 @@
         {{ $graduate_state := default (i18n $i18n_graduated) | default "graduated" }}
         {{ $join := default (i18n $i18n_join) | default "join" }}
         {{ with $person.role }}<h3>{{ . | markdownify | emojify }} 
-        {{ with $person.destination }}({{ $graduate_state | markdownify | emojify }})</h3>{{ end }}
-        </h3>{{ end }}
+        {{ with $person.join_year }}({{.}}{{ if $person.graduated_year }}-{{ $person.graduated_year }}{{ end }}){{ end }}
+        <!-- {{ with $person.destination }}({{ $graduate_state | markdownify | emojify }})</h3>{{ end }} -->
+        {{ end }}
         {{ with $person.destination }}<h3 class="font-weight-bold">
           {{ $join }}{{ . | markdownify | emojify }}
         </h3>{{ end }}
