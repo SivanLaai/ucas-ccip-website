@@ -8,15 +8,42 @@ zh:
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/zh
 
-# Uncomment the lines below to configure your website in a second language.
+# #Uncomment the lines below to configure your website in a second language.
 # en:
 #   languageCode: en-us
 #   contentDir: content/en
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 0
+#   title: Chinese website title...
+#   footer:
+#     copyright:
+#       notice: '© {year} Cloud Computing and Intelligent Information Processing Laboratory'
+#   params:
+#     description: Site description in Chinese...
+#   menu:
+#     main:
+#       - name: HOME
+#         url: 
+#         weight: 10
+#       - name: RESEARCH
+#         url: research
+#         weight: 20
+#       - name: TEAM
+#         url: people
+#         weight: 30
+#       - name: PUBLICATIONS
+#         url: publication
+#         weight: 40
+#       - name: SYSTEM
+#         url: system
+#         weight: 50
+#       - name: NEWS
+#         url: post
+#         weight: 60
+#       - name: RECRUIT
+#         url: recruit
+#         weight: 70
+#       - name: TEACHING
+#         url: course
+#         weight: 80
+#       - name: CONTACT
+#         url: contact
+#         weight: 90

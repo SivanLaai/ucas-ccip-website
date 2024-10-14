@@ -17,7 +17,7 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
+    org_name: '中国科学院大学'
     description: '**云计算与智能信息处理实验室**（CCIP Lab，成立于2010年1月，隶属于中国科学院大学计算机科学与技术学院，拥有自由开放的学术氛围和国际前沿的研究方向。实验室主任为徐俊刚教授'
     twitter: 'GetResearchDev'
   analytics:
@@ -45,7 +45,6 @@ header:
 
 footer:
   copyright:
-    #notice: '© {year} CCIP. This work is licensed under {license}'
     notice: '版权所有 © {year} 云计算与智能信息处理实验室（CCIP Lab）'
     # license:
     #   enable: true
@@ -73,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/SivanLaai/ucas-ccip-website'
     content_dir: content
     branch: main
   avatar:

@@ -37,7 +37,7 @@ education:
       institution: 中国科学院大学
       year: 2024
     - course: 本科 自动化
-      institution: 浙江大学
+      institution: 西安交通大学
       year: 2018-2022
 
 # Social/Academic Networking
