@@ -1,11 +1,11 @@
 ---
 title: 云计算与智能信息处理实验室
+subtitle: Cloud Computing & Intelligent Information Processing Lab
 date: 2024-09-01
+# type: landing
 ---
-
-![团队合照](team2-16-9.jpg "团队合照")
-
 云计算与智能信息处理实验室（Cloud Computing & Intelligent Information Processing Laboratory，CCIP）成立于2010年1月，隶属于中国科学院大学计算机科学与技术学院，拥有自由开放的学术氛围和国际前沿的研究方向。实验室主任为徐俊刚教授。
+![团队合照](team2-16-9.jpg "团队合照")
 
 
 实验室主要的研究方向和目标：
