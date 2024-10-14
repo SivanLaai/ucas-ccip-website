@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 李欣昊
+title: 张文龙
 
 # Full Name (for SEO)
-first_name: 欣昊
-last_name: 李
+first_name: 文龙
+last_name: 张
 
 # Is this the primary user of the site?
 superuser: false
@@ -12,7 +12,7 @@ superuser: false
 # Role/position
 role: 硕士研究生
 # 新生入学年份，必填写
-join_year: 2022
+join_year: 2024
 # 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
 graduated_year: 
 # 毕业去向，毕业生填写
@@ -35,10 +35,10 @@ education:
   courses:
     - course: 硕士 计算机应用技术
       institution: 中国科学院大学
-      year: 2022
-    - course: 本科 计算机科学与技术
+      year: 2024
+    - course: 本科 自动化
       institution: 浙江大学
-      year: 2018
+      year: 2018-2022
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -47,7 +47,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:lixinhao22@mails.ucas.ac.cn'
+    link: 'mailto:zhangwenlong24@mails.ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -78,3 +78,5 @@ user_groups:
 徐俊刚
 
 
+
+<!-- ### 获奖情况 -->

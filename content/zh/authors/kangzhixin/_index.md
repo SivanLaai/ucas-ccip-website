@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 李欣昊
+title: 康智信
 
 # Full Name (for SEO)
-first_name: 欣昊
-last_name: 李
+first_name: 智信
+last_name: 康
 
 # Is this the primary user of the site?
 superuser: false
@@ -29,16 +29,16 @@ organizations:
 bio: 研究方向为自动机器学习.
 
 interests:
-  - 自动机器学习
+  - 计算机视觉
 
 education:
   courses:
     - course: 硕士 计算机应用技术
       institution: 中国科学院大学
       year: 2022
-    - course: 本科 计算机科学与技术
-      institution: 浙江大学
-      year: 2018
+    - course: 本科
+      institution: 南开大学
+      year: 2017-2021
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -47,7 +47,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:lixinhao22@mails.ucas.ac.cn'
+    link: 'mailto:kangzhixin22@mails.ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -64,7 +64,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'lixinhao22@mails.ucas.ac.cn'
+email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -75,6 +75,6 @@ user_groups:
   - 硕士研究生
 ---
 ### 导师
-徐俊刚
-
-
+- 林姝
+### 工作经历
+- 实习生 计蒜客 2019.7-2019.8

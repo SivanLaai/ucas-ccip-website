@@ -11,15 +11,21 @@ superuser: false
 
 # Role/position
 role: 硕士研究生 
+
+# 新生入学年份，必填写
+join_year: 2021
+# 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
+graduated_year: 2024
 # 毕业去向，毕业生填写
 destination:  华为技术有限公司
 
 # Organizations/Affiliations
 organizations:
+  - name: 计算机科学与技术学院
+    url: 'https://scce.ucas.ac.cn'  
   - name: 中国科学院大学
     url: 'https://www.ucas.ac.cn'
-  - name: 计算机科学与技术学院
-    url: 'https://scce.ucas.ac.cn'
+
 
 # Short bio (displayed in user profile at end of posts)
 bio: 研究方向为自动机器学习.
@@ -28,12 +34,11 @@ interests:
   - 自动机器学习
 
 education:
-  start_year: 2021
   courses:
-    - course: 硕士/计算计应用技术
+    - course: 硕士 计算机应用技术
       institution: 中国科学院大学
       year: 2021
-    - course: 本科/电子信息
+    - course: 本科 电子信息
       institution: 上海交通大学
       year: 2017
 

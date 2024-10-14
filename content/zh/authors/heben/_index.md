@@ -14,8 +14,11 @@ role: 教授/博导
 
 # Organizations/Affiliations
 organizations:
-  - name: 中国科学院大学/计算机科学与技术学院
-    url: ''
+  - name: 计算机科学与技术学院
+    url: 'https://scce.ucas.ac.cn'  
+  - name: 中国科学院大学
+    url: 'https://www.ucas.ac.cn'
+
 
 # Short bio (displayed in user profile at end of posts)
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -41,7 +44,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:xujg@ucas.ac.cn'
+    link: 'mailto:benhe@ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -58,7 +61,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'xujg@ucas.ac.cn'
+email: ''
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

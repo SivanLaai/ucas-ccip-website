@@ -12,10 +12,20 @@ superuser: false
 # Role/position
 role: 博士研究生
 
+# 新生入学年份，必填写
+join_year: 2023
+# 毕业年份，毕业生需要更新
+graduated_year: 
+# 毕业去向，毕业生填写
+destination: 
+
 # Organizations/Affiliations
 organizations:
-  - name: 中国科学院大学/计算机科学与技术学院
-    url: ''
+  - name: 计算机科学与技术学院
+    url: 'https://scce.ucas.ac.cn'  
+  - name: 中国科学院大学
+    url: 'https://www.ucas.ac.cn'
+
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -26,13 +36,13 @@ interests:
 education:
   start_year: 2023 #国科大入学年份，必填
   courses:
-    - course: 博士/计算计应用技术
+    - course: 博士 计算机应用技术
       institution: 中国科学院大学
       year: 2023
-    - course: 硕士/电子信息
+    - course: 硕士 电子信息
       institution: 中国科学院大学
       year: 2020-2023
-    - course: 本科/电子信息工程
+    - course: 本科 电子信息工程
       institution: 北方工业大学
       year: 2016-2020
 
@@ -43,7 +53,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:zongtianyu20@mails.ucas.ac.cn'
+    link: 'mailto:zongtianyu23@mails.ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen

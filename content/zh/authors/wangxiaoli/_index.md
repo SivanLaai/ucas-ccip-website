@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 李欣昊
+title: 王晓丽
 
 # Full Name (for SEO)
-first_name: 欣昊
-last_name: 李
+first_name: 晓丽
+last_name: 王
 
 # Is this the primary user of the site?
 superuser: false
@@ -12,7 +12,7 @@ superuser: false
 # Role/position
 role: 硕士研究生
 # 新生入学年份，必填写
-join_year: 2022
+join_year: 2021
 # 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
 graduated_year: 
 # 毕业去向，毕业生填写
@@ -20,25 +20,25 @@ destination:
 
 # Organizations/Affiliations
 organizations:
-  - name: 计算机科学与技术学院
-    url: 'https://scce.ucas.ac.cn'  
+  - name: 人工智能学院
+    url: 'https://ai.ucas.ac.cn'  
   - name: 中国科学院大学
     url: 'https://www.ucas.ac.cn'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 研究方向为自动机器学习.
+bio: 
 
 interests:
-  - 自动机器学习
+  - 自然语言处理
 
 education:
   courses:
-    - course: 硕士 计算机应用技术
+    - course: 硕士 人工智能
       institution: 中国科学院大学
-      year: 2022
-    - course: 本科 计算机科学与技术
-      institution: 浙江大学
-      year: 2018
+      year: 2021
+    - course: 本科 计算计科学与技术
+      institution: 山西大同大学
+      year: 2012-2016
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -47,7 +47,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:lixinhao22@mails.ucas.ac.cn'
+    link: 'mailto:wangxiaoli21@mails.ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -64,7 +64,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'lixinhao22@mails.ucas.ac.cn'
+email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -75,6 +75,4 @@ user_groups:
   - 硕士研究生
 ---
 ### 导师
-徐俊刚
-
-
+- 徐俊刚

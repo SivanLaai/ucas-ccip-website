@@ -12,12 +12,20 @@ superuser: false
 # Role/position
 role: 博士研究生
 
+# 新生入学年份，必填写
+join_year: 2021
+# 毕业年份，毕业生需要更新
+graduated_year: 
+# 毕业去向，毕业生填写
+destination: 
+
 # Organizations/Affiliations
 organizations:
+  - name: 计算机科学与技术学院
+    url: 'https://scce.ucas.ac.cn'  
   - name: 中国科学院大学
     url: 'https://www.ucas.ac.cn'
-  - name: 计算机科学与技术学院
-    url: 'https://scce.ucas.ac.cn'
+
 
 # Short bio (displayed in user profile at end of posts)
 bio: 个人研究方向目前主要在电子设计自动化（EDA）与人工智能的结合.
@@ -28,15 +36,14 @@ interests:
   - 深度学习
 
 education:
-  start_year: 2021
   courses:
-    - course: 博士/计算计应用技术
+    - course: 博士 计算机应用技术
       institution: 中国科学院大学
-      year: 
-    - course: 硕士/软件工程
+      year:
+    - course: 硕士 软件工程
       institution: 中南大学
-      year: 
-    - course: 本科/电子科学与技术
+      year:
+    - course: 本科 电子科学与技术
       institution: 景德镇陶瓷大学
       year: 
 
@@ -80,10 +87,12 @@ user_groups:
 
 
 ### **获奖情况**
-
 - 2019-12 华为部门优秀新员工
 - 2019-11 华为部门 Top10“新人极客”称号
 - 2019-03-20 《一种基于机器学习的股票涨跌预测系统》专利申请
 - 2019-03-20 《一种基于 OpenGL 的三维矿山分析系统》专利申请
 - 2018-09-15 《企业考勤管理系统》软件著作权申请
 - 2017-10-05 《大学股票显示系统》软件著作权申请
+
+### 工作经历
+- 华为技术有限公司

@@ -11,11 +11,20 @@ superuser: false
 
 # Role/position
 role: 博士研究生
+# 新生入学年份，必填写
+join_year: 2019
+# 毕业年份，毕业生需要更新
+graduated_year: 
+# 毕业去向，毕业生填写
+destination: 
 
 # Organizations/Affiliations
 organizations:
-  - name: 中国科学院大学/计算机科学与技术学院
-    url: ''
+  - name: 电子电气与工程学院
+    url: 'https://eece.ucas.ac.cn'  
+  - name: 中国科学院大学
+    url: 'https://www.ucas.ac.cn'
+
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -24,17 +33,13 @@ interests:
   - 量子计算与机器学习
 
 education:
-  start_year: 2021 #国科大入学年份，必填
   courses:
-    - course: 博士/计算计应用技术
-      institution: 中国科学院大学
-      year: 2021
-    # - course: 硕士/电子信息
-    #   institution: 中国科学院大学
-    #   year: 2020-2023
-    - course: 本科/信息科学与工程学院
-      institution: 哈尔滨工业大学
-      year: 2016-2020
+    - course: 博士
+      institution: 中国科学院大学，电子电气与工程学院
+      year: 2019
+    - course: 本科
+      institution: 哈尔滨工业大学，信息科学与工程学院
+      year: 2015-2019
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -43,7 +48,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:liumiao20@mails.ucas.ac.cn'
+    link: 'mailto:17863136326@163.com'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -60,7 +65,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'liumiao20@mails.ucas.ac.cn'
+email: '17863136326@163.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -72,6 +77,7 @@ user_groups:
 ---
 ### **导师** 
 - 徐俊刚
+- 孙应飞
 
 
 ### **获奖情况**

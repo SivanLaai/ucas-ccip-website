@@ -1,16 +1,17 @@
 ---
 # Display name
-title: 李欣昊
+title: 陈东杰
 
 # Full Name (for SEO)
-first_name: 欣昊
-last_name: 李
+first_name: 东杰
+last_name: 陈
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: 硕士研究生
+role: 博士研究生
+
 # 新生入学年份，必填写
 join_year: 2022
 # 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
@@ -25,20 +26,26 @@ organizations:
   - name: 中国科学院大学
     url: 'https://www.ucas.ac.cn'
 
+
 # Short bio (displayed in user profile at end of posts)
-bio: 研究方向为自动机器学习.
+bio: .
 
 interests:
-  - 自动机器学习
+  - 计算机视觉
+  - 深度学习
 
 education:
+  start_year: 2020 #国科大入学年份，必填
   courses:
-    - course: 硕士 计算机应用技术
+    - course: 博士 计算机应用技术
       institution: 中国科学院大学
       year: 2022
-    - course: 本科 计算机科学与技术
-      institution: 浙江大学
-      year: 2018
+    - course: 博士 计算机应用技术
+      institution: 中国科学院大学
+      year: 2013-2017
+    - course: 本科 机械电子工程
+      institution: 内蒙古工业大学
+      year: 2009-2013
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -47,7 +54,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:lixinhao22@mails.ucas.ac.cn'
+    link: 'mailto:chendongjie14@mails.ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -64,7 +71,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'lixinhao22@mails.ucas.ac.cn'
+email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -72,9 +79,17 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 硕士研究生
+  - 博士研究生
 ---
-### 导师
-徐俊刚
+### **导师** 
+- 徐俊刚
 
 
+<!-- ### **获奖情况**
+
+- 2016 年北京大学新生奖学金三等奖 -->
+
+### **工作经历**
+
+- 京东方科技集团
+- 中科院自动化研究所

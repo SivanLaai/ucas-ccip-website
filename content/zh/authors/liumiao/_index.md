@@ -12,10 +12,20 @@ superuser: false
 # Role/position
 role: 博士研究生
 
+# 新生入学年份，必填写
+join_year: 2020
+# 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
+graduated_year: 
+# 毕业去向，毕业生填写
+destination:  
+
 # Organizations/Affiliations
 organizations:
-  - name: 中国科学院大学/计算机科学与技术学院
-    url: ''
+  - name: 计算机科学与技术学院
+    url: 'https://scce.ucas.ac.cn'  
+  - name: 中国科学院大学
+    url: 'https://www.ucas.ac.cn'
+
 
 # Short bio (displayed in user profile at end of posts)
 bio: .
@@ -29,10 +39,10 @@ interests:
 education:
   start_year: 2020 #国科大入学年份，必填
   courses:
-    - course: 博士/计算计应用技术
+    - course: 博士 计算机应用技术
       institution: 中国科学院大学
       year: 2020
-    - course: 本科/数据科学
+    - course: 本科 数据科学
       institution: 北京大学
       year: 2016
 
