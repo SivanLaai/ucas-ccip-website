@@ -29,11 +29,11 @@ organizations:
 bio: 
 
 interests:
-  - 自然语言处理
+  - 机器学习
 
 education:
   courses:
-    - course: 硕士 人工智能
+    - course: 硕士 计算机应用技术
       institution: 中国科学院大学
       year: 2021
     - course: 本科 软件工程
