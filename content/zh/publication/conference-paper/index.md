@@ -7,6 +7,7 @@ title: 'An example conference paper'
 authors:
   - admin
   - Robert Ford
+  - Jungang Xu
 
 # Author notes (optional)
 author_notes:
