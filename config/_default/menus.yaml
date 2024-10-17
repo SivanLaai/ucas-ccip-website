@@ -26,7 +26,7 @@ main:
     url: recruit
     weight: 70
   - name: 教学
-    url: course
+    url: teaching
     weight: 80
   - name: 联系
     url: contact
