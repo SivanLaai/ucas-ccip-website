@@ -12,8 +12,7 @@ sections:
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
         - 实验室主任
-        - 教授
-        - 副教授
+        - 教师
         - 博士后
         - 博士研究生
         - 硕士研究生
@@ -23,8 +22,7 @@ sections:
         - 毕业生
 
         # - principal_investigator
-        # - professor
-        # - associate_professor
+        # - tutor
         # - postdocs
         # - phd_students
         # - masters_students
