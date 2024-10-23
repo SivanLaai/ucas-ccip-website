@@ -40,4 +40,11 @@ sections:
       show_role: true
       show_social: true
       show_destination: true
+      # background:
+      #   # image:
+      #   #   # filename: ucas-bridge.jpg
+      #   #   filters:
+      #   #     brightness: 0.9
+      #   position: right
+      #   color: "#f7f7f7"
 ---

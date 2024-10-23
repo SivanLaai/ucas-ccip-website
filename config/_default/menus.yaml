@@ -13,7 +13,7 @@ main:
   - name: 团队
     url: people
     weight: 30
-  - name: 论文
+  - name: 成果
     url: publication
     weight: 40
   - name: 系统

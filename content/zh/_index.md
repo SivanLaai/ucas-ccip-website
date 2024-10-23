@@ -64,7 +64,7 @@ sections:
       title: 云计算与智能信息处理实验室
       subtitle: <strong>C</strong>loud <strong>C</strong>omputing and <strong>I</strong>ntelligent Information <strong>P</strong>rocessing Laboratory (CCIP Lab)
       fontsize: ""
-      url: author/徐俊刚/
+      url: research
       image:
         filename: team2-16-9.jpg
         width: 100%

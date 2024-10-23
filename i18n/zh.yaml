@@ -142,19 +142,19 @@
 # Pages widget
 
 - id: read_more
-  translation: 阅读更多
+  translation: 查看更多
 
 - id: more_pages
   translation: 查看全部
 
 - id: more_posts
-  translation: 查看全部文章
+  translation: 查看更多
 
 - id: more_talks
-  translation: 查看全部演讲
+  translation: 查看更多
 
 - id: more_publications
-  translation: 查看全部论文
+  translation: 查看更多
 
 # Contact widget
 
