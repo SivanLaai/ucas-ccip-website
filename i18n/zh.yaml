@@ -205,6 +205,9 @@
 - id: pub_article_journal
   translation: 期刊文章
 
+- id: pub_software_copyright
+  translation: 软件著作权
+
 - id: pub_article
   translation: 预印本
 
