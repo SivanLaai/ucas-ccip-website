@@ -131,7 +131,7 @@ sections:
 
   - block: collection
     content:
-      title: 论文动态
+      title: 成果动态
       text: 
       count: 5
       filters:

@@ -1,5 +1,5 @@
 ---
-title: 学术论文
+title: 实验室成果
 
 # Listing view
 view: citation

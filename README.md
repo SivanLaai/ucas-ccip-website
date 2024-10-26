@@ -149,3 +149,29 @@ http://localhost:1313/
 - 文章名称是```21-12-01-aaai```
 - 文章内容在```index.md```
 - 还可以在```index.md```同目录添加feature.png，作为文章封面图
+
+### 成果添加
+```yaml
+publication_types:
+  - paper-conference
+```
+- 会议论文 ```content/zh/publications/conferences/```,设置文章类型如下：
+```yaml
+publication_types: 
+ - paper-conference
+```
+- 期刊论文 ```content/zh/publications/journals/```,设置文章类型如下：
+```yaml
+publication_types: 
+ - article-journal
+```
+- 专利 ```content/zh/publications/patents/```,设置文章类型如下：
+```yaml
+publication_types: 
+ - patent
+```
+- 软件著作权 ```content/zh/publications/software-copyrights/```,设置文章类型如下：
+```yaml
+publication_types: 
+ - software-copyright
+```

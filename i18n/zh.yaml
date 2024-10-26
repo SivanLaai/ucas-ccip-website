@@ -200,10 +200,10 @@
   translation: 位置
 
 - id: pub_paper_conference
-  translation: 会议文章
+  translation: 会议论文
 
 - id: pub_article_journal
-  translation: 期刊文章
+  translation: 期刊论文
 
 - id: pub_software_copyright
   translation: 软件著作权
@@ -221,10 +221,10 @@
   translation: 章节
 
 - id: pub_thesis
-  translation: 论文
+  translation: 学位论文
 
 - id: pub_patent
-  translation: 专利
+  translation: 发明专利
 
 # Project details
 
