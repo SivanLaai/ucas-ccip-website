@@ -99,9 +99,9 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: 'mapnik'
-    api_key: ''
-    zoom: 15
+    provider: 'baidu'
+    api_key: '1V4mSproiau7AxsArSNKBWqR0ZiyMKNh'
+    zoom: 16
 
 # Extensions
 

@@ -8,23 +8,23 @@ sections:
   - block: contact
     content:
       title: 联系我们
-      # text: |-
+      # text: |
       
       email: xujg@ucas.ac.cn
       phone: 010-69671828
       address:
         street: 中国科学院大学雁栖湖校区
-        city: 北京
-        region: 怀柔
+        city: 北京市
+        region: 怀柔区
         postcode: '101408'
         country: 中国
         country_code: CN
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
+        latitude: '40.41636'
+        longitude: '116.68666'
       directions: 学园2-478
       office_hours:
-        - '周一至周五 (9:00-12:00 14:00-18:00)'
+        - '周一至周五 (8:30-11:30 13:30-17:30)'
       # appointment_url: 'https://calendly.com'
       # contact_links:
       #  - icon: comments
