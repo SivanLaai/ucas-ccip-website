@@ -2,7 +2,7 @@
 title: 实验室新闻
 
 # Listing view
-view: card
+view: compact
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:
