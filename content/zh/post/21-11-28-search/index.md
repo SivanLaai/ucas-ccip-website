@@ -7,3 +7,5 @@ image:
 ---
 
 2021年11月，实验室博士生景琨一篇神经架构搜索相关的论文“A Neural Architecture Generator for Efficient Search Space”在国际期刊Neurocomputing（中科院二区期刊）上在线发表。
+
+论文标题和摘要如封面所示。
