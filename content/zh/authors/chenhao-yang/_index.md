@@ -49,7 +49,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '494584087@qq.com'
+    link: 'mailto:494584087@qq.com'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -77,7 +77,7 @@ user_groups:
   - 毕业生
 ---
 ### **导师** 
-何苯
+ - 何苯
 
 
 
