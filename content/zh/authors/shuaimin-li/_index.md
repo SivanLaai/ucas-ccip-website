@@ -10,12 +10,12 @@ last_name: 李
 superuser: false
 
 # Role/position
-role: 硕士研究生 
+role: 博士研究生 
 
 # 新生入学年份，必填写
 join_year: 2017
 # 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
-graduated_year: 2020
+graduated_year: 2023
 # 毕业去向，毕业生填写
 destination: 
 
