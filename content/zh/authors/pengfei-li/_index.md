@@ -53,7 +53,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:zhangwenlong24@mails.ucas.ac.cn'
+    link: 'mailto:lipengfei@ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -90,7 +90,7 @@ user_groups:
 ### **工作经历** 
 2013.01-2016.07：中国科学院大学云计算与智能信息处理实验室，工程师
 
-### **取得成果** 
+### **发表论文** 
 1. 2014年3月在《电子商务》期刊发表文章《基于无线定位技术的税源监控系统》
 2. 2014年4月在《物联网技术》期刊发表文章《物联网技术在税源信息管理中的应用》
 3. 2014年11月在《电子商务》期刊发表文章《医疗收费票据电子化研究》

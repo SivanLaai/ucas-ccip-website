@@ -49,7 +49,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:liurenfeng16@mails.ucas.ac.cn'
+    link: 'mailto:liulei175@mails.ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen

@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 赵胜剑
+title: 王琦
 
 # Full Name (for SEO)
-first_name: 胜剑
-last_name: 赵
+first_name: 琦
+last_name: 王
 
 # Is this the primary user of the site?
 superuser: false
@@ -13,11 +13,11 @@ superuser: false
 role: 硕士研究生 
 
 # 新生入学年份，必填写
-join_year: 2018
+join_year: 2015
 # 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
-graduated_year: 2021
+graduated_year: 2018
 # 毕业去向，毕业生填写
-destination:  阿里巴巴
+destination: 中国建设银行总行
 
 # Organizations/Affiliations
 organizations:
@@ -31,16 +31,16 @@ organizations:
 bio: .
 
 interests:
-  - 机器学习
+  - 云计算与大数据处理
 
 education:
   courses:
     - course: 硕士
-      institution: 中国科学院大学，计算机科学与技术学院CCIP实验室
-      year: 2018
+      institution: 中国科学院大学，计算机与控制学院CCIP实验室
+      year: 2015
     - course: 本科
-      institution: 山西大学，计算机与信息技术学院
-      year: 2014
+      institution: 西南民族大学，计算机与科学技术学院
+      year: 2011
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -49,7 +49,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:zhao.112@foxmail.com'
+    link: 'mailto:wangqi615@mails.ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -66,7 +66,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'zhao.112@foxmail.com'
+email: 'wangqi615@mails.ucas.ac.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -77,14 +77,22 @@ user_groups:
   - 毕业生
 ---
 ### **导师** 
-林姝
+徐俊刚
 
 
 
 ### **获奖情况**
+1. 2015年6月 西南民族大学优秀毕业生
+2. 2014年10月 国家奖学金
+3. 2013年12月 西南民族大学二等奖学金
+4. 2013年12月 西南民族大学优秀学生干部
+5. 2012年12月 西南民族大学优秀学生
 
-1. 2016-2017、2017-2018学年国家励志奖学金
-2. 2016-2017、2017-2018学年山西大学一等奖学金
-3. 2016-2017、2017-2018学年山西大学单项奖学金
-4. 2016年，全国大学生数学建模竞赛山西省二等奖
-5. 2016年，中国高校计算机大赛-团队程序设计天梯赛山西省第三名
+### **竞赛成绩**
+1. 2013年2月 美国数学建模比赛二等奖
+2. 2013年9月 全国大学生数学建模比赛四川省二等奖
+
+### **发表论文**
+1. Qi Wang, Jungang Xu, Ben He and Zhengcai Qin. An Improved Convolutional Neural Network for Sentence Classification Based on Term Frequency and Segmentation [C]. Proceedings of the 26th?International Conference on Artificial Neural Networks(ICANN2017), Alghero, Italy, September 11-14, 2017:pp.56-63
+2. Qi Wang, Jungang Xu, Hong Chen and Ben He. Two Improved Continuous Bag-of-word Models [C]. Proceedings of the 30th International Joint Conference on Neural Networks (IJCNN2017), Anchorage, AK, USA, May 14-19, 2017:pp.2851-2856
+3. Hong Chen, Jungang Xu, Qi Wang and Ben He. A Document Modeling Method Based on Deep Generative Model and Spectral Hashing [C]. Proceedings of the 9th?International Conference on Knowledge Science, Engineering and Management (KSEM2016), Passau, Germany, October 4-7, 2016:pp.402-413

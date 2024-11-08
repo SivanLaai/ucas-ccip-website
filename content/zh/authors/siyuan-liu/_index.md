@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 赵胜剑
+title: 刘思远
 
 # Full Name (for SEO)
-first_name: 胜剑
-last_name: 赵
+first_name: 思远
+last_name: 刘
 
 # Is this the primary user of the site?
 superuser: false
@@ -13,11 +13,11 @@ superuser: false
 role: 硕士研究生 
 
 # 新生入学年份，必填写
-join_year: 2018
+join_year: 2017
 # 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
-graduated_year: 2021
+graduated_year: 2020
 # 毕业去向，毕业生填写
-destination:  阿里巴巴
+destination: 中国银行
 
 # Organizations/Affiliations
 organizations:
@@ -31,16 +31,16 @@ organizations:
 bio: .
 
 interests:
-  - 机器学习
+  - 大数据处理、类人智能
 
 education:
   courses:
     - course: 硕士
-      institution: 中国科学院大学，计算机科学与技术学院CCIP实验室
-      year: 2018
+      institution: 中国科学院大学，计算机科学与技术学院
+      year: 2017
     - course: 本科
-      institution: 山西大学，计算机与信息技术学院
-      year: 2014
+      institution: 中国矿业大学，信息与电气工程学院
+      year: 2013
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -49,7 +49,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:zhao.112@foxmail.com'
+    link: 'mailto:rayn434@163.com'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -66,7 +66,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'zhao.112@foxmail.com'
+email: 'rayn434@163.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -82,9 +82,10 @@ user_groups:
 
 
 ### **获奖情况**
+1. 2013-2014学年中国矿业大学二等奖学金
+2. 2014-2015学年中国矿业大学单项奖学金
+3. 2015-2016学年中国矿业大学单项奖学金
 
-1. 2016-2017、2017-2018学年国家励志奖学金
-2. 2016-2017、2017-2018学年山西大学一等奖学金
-3. 2016-2017、2017-2018学年山西大学单项奖学金
-4. 2016年，全国大学生数学建模竞赛山西省二等奖
-5. 2016年，中国高校计算机大赛-团队程序设计天梯赛山西省第三名
+### **参与项目**
+1. 2014年完成中国矿业大学“大学生创新创业计划”，基于光电感应智能车的设计
+2. 2016年主持并完成江苏省“大学生创新创业计划”，基于农舍模型的自动控制原理教学实验仪器

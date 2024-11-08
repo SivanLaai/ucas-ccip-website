@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 赵胜剑
+title: 陈红
 
 # Full Name (for SEO)
-first_name: 胜剑
-last_name: 赵
+first_name: 红
+last_name: 陈
 
 # Is this the primary user of the site?
 superuser: false
@@ -13,11 +13,11 @@ superuser: false
 role: 硕士研究生 
 
 # 新生入学年份，必填写
-join_year: 2018
+join_year: 2013
 # 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
-graduated_year: 2021
+graduated_year: 2016
 # 毕业去向，毕业生填写
-destination:  阿里巴巴
+destination: 中科院声学所
 
 # Organizations/Affiliations
 organizations:
@@ -31,16 +31,16 @@ organizations:
 bio: .
 
 interests:
-  - 机器学习
+  - 机器学习、自然语言处理、数据挖掘
 
 education:
   courses:
     - course: 硕士
-      institution: 中国科学院大学，计算机科学与技术学院CCIP实验室
-      year: 2018
+      institution: 中国科学院大学
+      year: 2013
     - course: 本科
-      institution: 山西大学，计算机与信息技术学院
-      year: 2014
+      institution: 武汉大学
+      year: 2009
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -49,7 +49,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:zhao.112@foxmail.com'
+    link: 'mailto:chenhong113@mails.ucas.ac.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -66,7 +66,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'zhao.112@foxmail.com'
+email: 'chenhong113@mails.ucas.ac.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -77,14 +77,17 @@ user_groups:
   - 毕业生
 ---
 ### **导师** 
-林姝
+徐俊刚
 
 
 
 ### **获奖情况**
+1. 2009-2013 武汉大学校级奖学金（每年）
+2. 2009-2013 武汉大学励志奖学金（每年）
+3. 2009-2013 武汉大学优秀学生（每年）
+4. 2012 武汉大学第48期党校优秀学员
+5. 2010-2012 武汉大学运动会团体一等奖
 
-1. 2016-2017、2017-2018学年国家励志奖学金
-2. 2016-2017、2017-2018学年山西大学一等奖学金
-3. 2016-2017、2017-2018学年山西大学单项奖学金
-4. 2016年，全国大学生数学建模竞赛山西省二等奖
-5. 2016年，中国高校计算机大赛-团队程序设计天梯赛山西省第三名
+### **发表论文**
+1. Jungang Xu; Shilong Zhou; Hong Chen; Pengfei Li, “A sample partition method for learning to rank based on query-level vector extraction,” in Neural Networks (IJCNN), 2015 International Joint Conference on , vol., no., pp.1-7, 12-17 July 2015
+2. Bin Liao; Jungang Xu; Huiying Sun; Hong Chen, “Robust Corner Detection Based on Bilateral Filter in Direct Curvature Scale Space-submission” in ICSI (3) 2015: 357-365
