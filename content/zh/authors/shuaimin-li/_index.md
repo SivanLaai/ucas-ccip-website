@@ -35,7 +35,7 @@ interests:
 
 education:
   courses:
-    - course: 硕士
+    - course: 博士
       institution: 中国科学院大学，计算机科学与技术学院
       year: 2017
     - course: 本科

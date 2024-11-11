@@ -17,7 +17,7 @@ join_year: 2018
 # 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
 graduated_year: 2024
 # 毕业去向，毕业生填写
-destination: 百度
+destination: 安徽大学
 
 # Organizations/Affiliations
 organizations:
@@ -35,7 +35,7 @@ interests:
 
 education:
   courses:
-    - course: 硕士
+    - course: 博士
       institution: 中国科学院大学，计算机科学与技术学院
       year: 2018
     - course: 本科

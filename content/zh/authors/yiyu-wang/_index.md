@@ -35,7 +35,7 @@ interests:
 
 education:
   courses:
-    - course: 硕士
+    - course: 博士
       institution:  中国科学院大学，计算机科学与技术学院CCIP实验室
       year: 2018
     - course: 本科
