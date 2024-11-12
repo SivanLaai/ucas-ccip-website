@@ -28,7 +28,7 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: .
+bio:
 
 interests:
   - 云计算与大数据处理。包括Hadoop、Spark、Storm等分布式大数据处理框架的评测与性能分析。

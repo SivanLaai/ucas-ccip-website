@@ -28,7 +28,7 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: .
+bio:
 
 interests:
   - 量化交易，机器学习

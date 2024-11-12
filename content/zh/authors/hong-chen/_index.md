@@ -28,7 +28,7 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: .
+bio:
 
 interests:
   - 机器学习、自然语言处理、数据挖掘

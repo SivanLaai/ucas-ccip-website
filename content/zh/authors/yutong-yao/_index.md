@@ -28,7 +28,7 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: .
+bio:
 
 interests:
   - 量子计算与机器学习
