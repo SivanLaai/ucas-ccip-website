@@ -23,14 +23,22 @@
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 <div id="profile">
-
-  {{ if $avatar }}
-  <div class="avatar-wrapper">
-    {{ $avatar_image := $avatar.Fill "150x150 Center" }}
-    <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
-         width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}">
+  {{ $src := "" }}
+  {{ if site.Params.features.avatar.gravatar }}
+  {{ $src = partial "functions/get_avatar" (dict "root" . "height" 150 "width" 150) }}
+  {{ else if $avatar }}
+  {{ $avatar_image := $avatar.Fill "380x400 Top" }}
+  {{ $src = $avatar_image.RelPermalink }}
+  {{ else }}
+  {{ $src = partial "functions/get_avatar" (dict "root" . "height" 150 "width" 150) }}
+  {{ end }}
+  {{ if $src }}
+  {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
+    <img width="380" height="400" loading="lazy"
+      class="avatar {{if eq $avatar_shape " square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}"
+      alt="{{$person_page.Title}}"
+      >
     {{with $person.status.icon}}<span class="avatar-emoji">{{.|emojify}}</span>{{end}}
-  </div>
   {{ end }}
 
   <div class="portrait-title">

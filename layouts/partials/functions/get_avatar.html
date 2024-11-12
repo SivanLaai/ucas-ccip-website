@@ -1,0 +1,32 @@
+{{/* Function to return a formatted address given a semantic address. */}}
+
+{{/* Check for valid site config. */}}
+{{ $email := .email }}
+{{ $height := .height | default 300 }}
+{{ $width := .width | default 270 }}
+
+<!--  -->
+{{ $url := printf "https://cravatar.cn/avatar/%s?s=%d" (md5 $email) $height }}
+{{ with resources.GetRemote $url }}
+  {{ with .Err }}
+    {{ errorf "%s" . }}
+  {{ else }}
+    {{ $avatar := . }}
+    {{ $avatar_image := $avatar.Fill (printf "%dx%d Top" $width $height) }}
+    {{ $url = $avatar_image.RelPermalink }}
+  {{ end }}
+{{ else }}
+  {{ errorf "无法获取远程资源 %q" $url }}
+  {{ $url := printf "https://s.gravatar.com/avatar/%s?s=%d" (md5 $email) $height }}
+  {{ with resources.GetRemote $url }}
+    {{ with .Err }}
+      {{ errorf "%s" . }}
+    {{ else }}
+      {{ $avatar := . }}
+      {{ $avatar_image := $avatar.Fill (printf "%dx%d Top" $width $height) }}
+      {{ $url = $avatar_image.RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $url }}

@@ -19,6 +19,7 @@
   {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://docs.hugoblox.com/page-builder/#about " $person_page_path }}
 {{end}}
 {{ $person := $person_page.Params }}
+{{/* author detail page */}}
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
 {{ $avatar_shape := site.Params.features.avatar.about_shape | default "circle" }}
 
@@ -26,14 +27,21 @@
 <div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
-
+      {{ $src := "" }}
       {{ if site.Params.features.avatar.gravatar }}
-      <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person_page.Title}}">
+      {{ $src = partial "functions/get_avatar" (dict "email" $person.email "height" 400 "width" 380) }}
       {{ else if $avatar }}
       {{ $avatar_image := $avatar.Fill "380x400 Top" }}
-      <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}"
-           width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}"
-           src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
+      {{ $src = $avatar_image.RelPermalink }}
+      {{ else }}
+      {{ $src = partial "functions/get_avatar" (dict "email" $person.email "height" 400 "width" 380) }}
+      {{ end }}
+      {{ if $src }}
+      {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
+        <img width="380" height="400" loading="lazy"
+          class="avatar {{if eq $avatar_shape " square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}"
+          alt="{{$person_page.Title}}"
+          >
       {{ end }}
 
       <div class="portrait-title">
