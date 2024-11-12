@@ -34,9 +34,15 @@
   {{ $query := where (where site.Pages.ByPublishDate "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
 
   {{/* Sort */}}
-  {{ $sort_by := $block.content.sort_by | default "Params.education.start_year" }}
+  {{ $sort_by := $block.content.sort_by | default "Params.join_year" }}
+  {{ if in (slice "毕业生" "Alumni") $user_groups }}
+  {{ $sort_by = "Params.graduated_year" }}
+  {{ end }}
   {{ $sort_by = partial "functions/get_sort_by_parameter" $sort_by }}
   {{ $sort_ascending := $block.content.sort_ascending | default true }}
+  {{ if in (slice "毕业生" "Alumni") $user_groups }}
+  {{ $sort_ascending = false }}
+  {{ end }}
   {{ $sort_order := cond $sort_ascending "asc" "desc" }}
   {{ $query = sort $query $sort_by $sort_order }}
 
@@ -92,8 +98,14 @@
       </h3> {{ end }}
       {{ if and $show_destination .Params.destination }}
       {{ $join := default (i18n "join") | default "join" }}
-      <h3 class="font-weight-bold">{{ $join }}{{ .Params.destination |
-        markdownify | emojify }}</h3>{{ end }}
+      <h3 class="font-weight-bold">
+        {{ $join }}{{ .Params.destination | markdownify | emojify }}
+      </h3>
+      {{ else if in (slice "毕业生" "Alumni") $user_groups }}
+      <h3 class="font-weight-bold">
+        -
+      </h3>
+      {{ end }}
       {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
       {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " |
         markdownify | emojify }}</p>{{ end }}

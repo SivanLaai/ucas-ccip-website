@@ -13,7 +13,7 @@ superuser: false
 role: 博士研究生 
 
 # 新生入学年份，必填写
-join_year: 2017
+join_year: 2018
 # 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
 graduated_year: 2024
 # 毕业去向，毕业生填写
