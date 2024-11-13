@@ -79,7 +79,15 @@ features:
     gravatar: false
     shape: circle
     about_shape: circle
-    type: mp
+    # 404：如果没有与电子邮件哈希关联的图像，则不加载任何图像，而是返回 HTTP 404（未找到文件）响应
+    # mp：一个简单的卡通风格的人物轮廓
+    # identicon：一个几何图案（随机生成）
+    # monsterid：具有不同颜色、面孔的“怪物”（随机生成）
+    # wavatar：具有不同特征和背景的人脸（随机生成）
+    # retro：8位色的像素人脸（随机生成）
+    # robohash：具有不同颜色、面部的机器人（随机生成）
+    # blank：透明的 PNG 图像（为方便演示，已为其添加了一个边框）
+    type: robohash
   comment:
     provider: ''
     disqus:
