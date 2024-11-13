@@ -17,7 +17,8 @@ join_year: 2017
 # 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
 graduated_year: 2023
 # 毕业去向，毕业生填写
-destination: 
+destination: 香港理工大学
+destination_type: 博后
 
 # Organizations/Affiliations
 organizations:

@@ -99,7 +99,11 @@
       {{ if and $show_destination .Params.destination }}
       {{ $join := default (i18n "join") | default "join" }}
       <h3 class="font-weight-bold">
-        {{ $join }}{{ .Params.destination | markdownify | emojify }}
+        {{ .Params.destination | markdownify | emojify }}
+        {{ $destination_type := .Params.destination_type }}
+        {{ with .Params.destination_type }}
+        ({{ $destination_type }})
+        {{ end }}
       </h3>
       {{ else if in (slice "毕业生" "Alumni") $user_groups }}
       <h3 class="font-weight-bold">
