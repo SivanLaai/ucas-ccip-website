@@ -87,7 +87,7 @@ features:
     # retro：8位色的像素人脸（随机生成）
     # robohash：具有不同颜色、面部的机器人（随机生成）
     # blank：透明的 PNG 图像（为方便演示，已为其添加了一个边框）
-    type: robohash
+    type: mp
   comment:
     provider: ''
     disqus:
