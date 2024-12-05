@@ -10,6 +10,11 @@ sections:
       subtitle: ''
       text: |
         这里是要添加的内容
+        | Syntax | Description |
+        | ----------- | ----------- |
+        | Header | Title |
+        | Paragraph | Text |
+        
         <div class='text-center'> 123</div>
 
     design:
