@@ -10,6 +10,7 @@ sections:
       subtitle: ''
       text: |
         这里是要添加的内容
+        <div class='text-center'> 123</div>
 
     design:
       columns: '1'
