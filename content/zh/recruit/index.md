@@ -24,7 +24,7 @@ banner:
   </tr>
   <tr>
     <td style="text-align:center; vertical-align:middle;">联系<br/>方式</td>
-    <td colspan="3" style="vertical-align:middle;">请联系徐俊刚老师:xujg@ucas.ac.cn，林姝老师：slin@ucas.ac.cn</td>
+    <td colspan="3" style="vertical-align:middle;">请联系<a href="mailto:xujg@ucas.ac.cn">徐俊刚老师</a>，<a href="mailto:slin@ucas.ac.cn">林姝老师</a></td>
   </tr>
   <tr>
     <td colspan="4">同时实验室常年招收硕士或博士实习生，需经其导师和所在学校同意，签署书面同意书。</td>
