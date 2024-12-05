@@ -2,6 +2,7 @@
 title: 招生
 banner:
   caption: ''
+share: false
 ---
 <table>
   <tr>

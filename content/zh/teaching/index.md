@@ -2,6 +2,7 @@
 title: 教学
 banner:
   caption: ''
+share: false
 ---
 **教学名称**:	深度学习<br/>
 **开课学院**:	计算机科学与技术学院<br/>

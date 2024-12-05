@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title:  云计算与智能信息处理实验室 # Website name
-baseURL: 'https://ccip.ucas.ac.cn/' # Website URL
+baseURL: '' # Website URL
 
 ############################
 ## LANGUAGE

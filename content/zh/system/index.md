@@ -2,6 +2,7 @@
 title: 系统
 banner:
   caption: ''
+share: false
 ---
 1. **行人重识别系统**。通过提取行人的人脸、步态、骨架、姿态等特征，实现跨摄像头的行人重识别和追踪。
 <div style="text-align: center"></div>
