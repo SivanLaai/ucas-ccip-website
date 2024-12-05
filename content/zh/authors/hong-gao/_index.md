@@ -9,21 +9,21 @@ last_name: 高
 superuser: false
 
 # Role/position
-role: 硕士研究生 
+role: 硕士研究生（客座）
 
 # 新生入学年份，必填写
-join_year: 2017
+join_year: 
 # 毕业年份，毕业生需要更新，填写该值表示该学生已经毕业
-graduated_year: 2019
+graduated_year: 
 # 毕业去向，毕业生填写
 destination: 
 
 # Organizations/Affiliations
 organizations:
-  - name: 计算机科学与技术学院
-    url: 'https://scce.ucas.ac.cn'  
-  - name: 中国科学院大学
-    url: 'https://www.ucas.ac.cn'
+  - name: 电气与电子工程学院
+    url: 'https://electric.ncepu.edu.cn/'  
+  - name: 华北电力大学
+    url: 'https://www.ncepu.edu.cn/'
 
 
 # Short bio (displayed in user profile at end of posts)
@@ -34,9 +34,6 @@ interests:
 
 education:
   courses:
-    - course: 硕士
-      institution: 中国科学院大学，计算机与控制学院CCIP实验室（客座）
-      year: 2017
     - course: 硕士
       institution: 华北电力大学，电气与电子工程学院
       year: 2016
@@ -78,6 +75,8 @@ highlight_name: false
 user_groups:
   - 访问学生
 ---
+### **访问时间**
+ - 2017
 ### **导师** 
  - 廖斌
  - 徐俊刚
